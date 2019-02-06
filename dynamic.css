@@ -1,0 +1,98 @@
+.card {
+    border: 3px solid black;
+    padding: 2%;
+    text-align: center;
+    margin: 3%;
+    width: 27%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+body {
+    background-image: url("myimage.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+    display: flex;
+    font-family: cursive;
+}
+
+.obj {
+
+    width: 60%;
+    height: 95%;
+    background-color: cornsilk;
+    padding: 2%;
+    border: 3px solid black;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px;
+    
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgb(2, 152, 197);
+        background-image: none;
+        display: inline-block;
+        justify-content: space-around;
+        width:90%;
+        font-family: cursive;
+    }
+    .card {
+        border: 3px solid black;
+        padding: 2%;
+        margin: 4%;
+        width: 92%;
+        height: auto;
+        background-color: palevioletred;
+        border-radius: 5%;
+        box-shadow: none;
+        color: burlywood;
+    }
+    .obj {
+        margin: 4%;
+        width: 92%;
+        height: auto;
+        background-color: darkgrey;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 0;
+        box-shadow: none;
+        color: crimson;
+        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+    body {
+        background-color: rgb(2, 152, 197);
+        background-image: none;
+        display: inline-block;
+        justify-content: space-around;
+        width:90%;
+        font-family: cursive;
+    }
+    .card {
+        border: 3px solid black;
+        padding: 2%;
+        margin: 4%;
+        width: 92%;
+        height: auto;
+        background-color: palevioletred;
+        border-radius: 5%;
+        box-shadow: none;
+        color: burlywood;
+    }
+    .obj {
+        margin: 4%;
+        width: 92%;
+        height: auto;
+        background-color: darkgrey;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 0;
+        box-shadow: none;
+        
+    }
+}

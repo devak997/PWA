@@ -1,0 +1,89 @@
+body {
+    background-image: url("myimage.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.mainDiv {
+    justify-content: space-around center;
+}
+
+.content {
+    height: 330px;
+    display: flex;
+    background-color: rgb(248, 172, 101);
+    margin: 10%;
+    border: 3px solid black;
+    border-radius: 3%;
+}
+.card {
+    border: 3px solid black;
+    text-align: center;
+    margin: 3%;
+    width: 27%;
+    background-color: coral;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: none;
+        background-color: brown;
+    }
+    
+    .mainDiv {
+        justify-content: space-around center;
+    }
+    
+    .content {
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        background-color: rgb(248, 172, 101);
+        margin: 10%;
+        border: 3px solid black;
+        border-radius: 3%;
+    }
+    .card {
+        border: 3px solid black;
+        text-align: center;
+        margin: 3%;
+        width: 94%;
+        background-color: coral;
+        border-radius: 5%;
+        box-shadow: 4px 4px 4px 4px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+    body {
+        background-image: none;
+        background-color: crimson;
+    }
+    
+    .mainDiv {
+        justify-content: space-around center;
+    }
+    
+    .content {
+        height: auto;
+        width: 100%;
+        display: inline-block;
+        background-color: rgb(248, 172, 101);
+        margin: 10%;
+        border: 3px solid black;
+        border-radius: 3%;
+    }
+    .card {
+        border: 3px solid black;
+        text-align: center;
+        margin: 3%;
+        width: 94%;
+        background-color: coral;
+        border-radius: 5%;
+        box-shadow: 4px 4px 4px 4px;
+    }
+
+}

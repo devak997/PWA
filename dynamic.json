@@ -1,0 +1,42 @@
+{
+    "cardData": {
+        "image": "user1.png",
+        "name": "K. Deva Kumar",
+        "roll": "17A31A0545",
+        "institute": "Pragati Engineering College",
+        "place": "Kakinada"
+    },
+    "academicData": {
+        "info": "To work well in the company in which I got job",
+        "educationDetails": [
+            {
+                "SNo": "1",
+                "qualification": "Btech",
+                "institute": "Pragati Engineering College",
+                "CGPA": "9.49"
+            },
+            {
+                "SNo": "2",
+                "qualification": "Class 12",
+                "institute": "Geetam College",
+                "CGPA": "9.71"
+            },
+            {
+                "SNo": "3",
+                "qualification": "Class 10",
+                "institute": "Ashram Public School",
+                "CGPA": "9.2"
+            }
+        ],
+        "languages": [
+            "English",
+            "Telugu"
+        ],
+        "skills": [
+            "C",
+            "C++",
+            "Python",
+            "Java"
+        ]
+    }
+}
